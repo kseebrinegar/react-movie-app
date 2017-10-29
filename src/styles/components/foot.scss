@@ -1,0 +1,28 @@
+footer {
+	background: 100%;
+	text-align: center;
+	background: black;
+	padding: $m-size 0px;
+	color: $lightgrey;
+}
+
+footer span {
+	color: $lightgrey;
+	color: red;
+}
+
+footer p {
+	font-size: 14px;
+	font-weight: 300;
+	transition: .5s;
+	cursor: pointer;
+}
+
+footer p:hover {
+	text-decoration: underline;
+	color: $green;
+}
+
+footer p:last-child {
+	margin-top: $s-size;
+}

@@ -1,0 +1,12 @@
+#logo {
+	width: 140px;
+	display: block;
+	float: left;
+}
+
+@media(max-width: 544px) {
+	#logo {
+		margin: auto;
+		float: none;
+	}
+}

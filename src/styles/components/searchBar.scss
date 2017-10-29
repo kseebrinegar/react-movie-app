@@ -1,0 +1,51 @@
+#searchBar-container {
+	width: 55%;
+	float: right;
+	margin-top: $s-size;
+	border-bottom: 1px solid white;
+	position: relative;
+}
+
+#searchBar {
+	margin-bottom: 10px;
+	font-weight: 300;
+	font-size: $s-size;
+	padding-left: 15px;
+	color: white;
+}
+
+#possibleMatches {
+	width: 100%;
+	display: block;
+	position: absolute;
+	z-index: 20;
+	margin-top: 1px;
+}
+
+#possibleMatches li {
+	width: 100%;
+	color: white;
+	list-style: none;
+	padding: 20px;
+	cursor: pointer;
+	opacity: .9;
+	background: black;
+}
+
+#possibleMatches li:hover {
+	background: $green;
+	opacity: 1;
+}
+
+@media(max-width: 544px) {
+	
+	#searchBar-container {
+		margin-top: 35px;
+		float: none;
+		width: 100%;
+	}
+}
+
+
+
+

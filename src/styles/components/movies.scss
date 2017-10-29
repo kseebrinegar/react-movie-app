@@ -1,0 +1,30 @@
+#movies {
+	max-width: 942px;
+	margin: auto;
+	padding: $m-size 80px;
+	padding-bottom: 0px;
+}
+
+@media(max-width: 925px) {
+
+	#movies {
+		padding: $m-size 5%;
+		padding-bottom: 0px;
+	}
+}
+
+@media(max-width: 768px) {
+
+	#movies {
+		padding: $m-size 10%;
+		padding-bottom: 0px;
+	}
+}
+
+@media(max-width: 544px) {
+
+	#movies {
+		padding: $m-size $s-size;
+		padding-bottom: 0px;
+	}
+}

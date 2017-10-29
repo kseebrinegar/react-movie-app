@@ -1,0 +1,7 @@
+#background-gradient-effect {
+	width: 100%;
+	height: 100%;	
+	z-index: 5;
+	background-image: linear-gradient(rgba(0,0,0,.85) 15%,rgba(0,0,0,.2) 40%,#000 90%);
+    background-attachment: fixed;
+}
